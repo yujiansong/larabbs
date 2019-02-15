@@ -10,6 +10,7 @@
 
     <title>@yield('title', 'Light-BBS') - BBS轻应用</title>
     <meta name="description" content="@yield('description', 'Light-BBS 社区')" />
+    <meta name="keyword" content="@yield('keyword', setting('seo_keyword', 'LaraBBS,社区,论坛,开发者论坛'))" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
